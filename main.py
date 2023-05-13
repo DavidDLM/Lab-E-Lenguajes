@@ -3,8 +3,8 @@
 from parser_1 import *
 
 filename = "yap3.yalp"
-yapFilename = 'YAPar/' + filename
+yap_filename = 'YAPar/' + filename
 
-yapar = Parser(yapFilename)
+yapar = Parser(yap_filename)
 
 yapar.compiler()
